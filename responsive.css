@@ -1,0 +1,163 @@
+@media (355px<= width <=1000px){
+    .Navbar-section{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .Navbar-2 , .Navbar-3 {
+        display: none;
+    }
+
+    .Navbar-4{
+        display: block;
+    }
+
+    /* //////////////////Header 2 /////////////*/
+
+    .Main-section{
+        margin-top: -170px;
+        width: 100%;
+        height: 140vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Main-section h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Main-section p , .p1{
+        font-size: 12px;
+        text-align: center;
+        margin: 1px auto;
+    }
+
+    .p1{
+        margin-top: 200px !important;
+    }
+
+    .p2{
+        margin-top: 50px;
+    }
+
+    .Main-section div {
+        text-align: center;
+    }
+
+    .content-2 p {
+        text-align: center;
+    }
+
+    .Main-2 img {
+        width: 300px;
+    }
+
+    /*//////////////// Main //////////////////*/
+
+    .main-section-1 i{
+        font-size: 35px ;
+    }
+
+    .main-1 img , .main-4 img{
+        width: 350px;
+    }
+
+    .main-3 .main-3-1 h3 , .main-2-1 h3{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .main-3 .main-3-1 p{
+        text-align: center;
+    }
+
+    .main-3 .main-3-1 div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-section-4{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-7 h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .main-9 {
+        text-align: center;
+    }
+
+    .main-9 img {
+        width: 350px;
+    }
+
+    .main-9 .xc h5 {
+        font-size: 20px;
+    }
+
+    .main-9 .cx p {
+        font-size: 12px;
+    }
+
+    .main-9 .dx a{
+        font-size: 12px;
+    }
+
+    .main-10{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .main-10 img {
+        width: 350px;
+    }
+
+    .main-10 .xc h5 {
+        font-size: 20px;
+    }
+
+    .main-10 a {
+        font-size: 12px;
+    }
+
+    .main-11 h3 {
+        font-size: 20px;
+        text-align: center;
+     }
+
+     .main-11 div{
+        margin: 1px auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+
+     .main-12 img {
+        width: 250px;
+        margin:40px auto;
+     }
+
+}
+
+@media (719px <= width <= 1000px){
+    .Main-2 img {
+        width: 400px ;
+    }
+}
+
+@media (355px <= width <= 397px){
+    .footer-3 , .footer-4 {
+        margin-top: 90px;
+    }
+}
+
+@media (398px <= width <= 507px){
+    .footer-4 {
+        margin-top: 90px;
+    }
+}
