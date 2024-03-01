@@ -1,4 +1,4 @@
-@media (355px<= width <=1000px){
+@media (350px<= width <=1000px){
     .Navbar-section{
         display: flex;
         justify-content: space-between;
