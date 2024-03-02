@@ -1,4 +1,5 @@
 @media (350px<= width <=1000px){
+
     .Navbar-section{
         display: flex;
         justify-content: space-between;
@@ -144,9 +145,10 @@
 
 }
 
-@media (719px <= width <= 1000px){
-    .Main-2 img {
-        width: 400px ;
+@media (350px <= width <= 718px){
+
+    .Main-2  {
+        width: 350px ;
     }
 }
 
