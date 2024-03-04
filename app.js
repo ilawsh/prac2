@@ -27,17 +27,11 @@ X.addEventListener('click' , () => {
     MenuBTN.style.opacity = 1;
 })
 
-MainSec.addEventListener('click' , () => {
-    Menu.style.right = -100 + '%'
-    MainSec.style.filter = 'blur(' + 0 +'px)'
-    X.style.display = 'none'
-    MenuBTN.style.display = 'block'
-    MenuBTN.style.opacity = 1;
-})
-
 Menu.addEventListener('click' , () => {
-    Menu.style.right = -100 + '%'
+    Menu.style.opacity = 0
+    Menu.style.transform = 'translateX(' + 100 + '%)'
     MainSec.style.filter = 'blur(' + 0 +'px)'
+    MainIMG.style.filter = 'blur(' + 0 +'px)'
     X.style.display = 'none'
     MenuBTN.style.display = 'block'
     MenuBTN.style.opacity = 1;
