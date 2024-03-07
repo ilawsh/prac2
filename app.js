@@ -6,8 +6,6 @@ let MainIMG = document.querySelector('.Main-2')
 
 
 MenuBTN.addEventListener('click' ,  () => {
-    // Menu.style.right = 0 + '%'
-    Menu.style.opacity = 1
     Menu.style.transform = 'translateX(' + 0 + '%)'
     MainSec.style.filter = 'blur(' + 2 +'px)'
     MainIMG.style.filter = 'blur(' + 2 +'px)'
@@ -17,8 +15,6 @@ MenuBTN.addEventListener('click' ,  () => {
 
 
 X.addEventListener('click' , () => {
-    // Menu.style.right = -100 + '%'
-    Menu.style.opacity = 0
     Menu.style.transform = 'translateX(' + 100 + '%)'
     MainSec.style.filter = 'blur(' + 0 +'px)'
     MainIMG.style.filter = 'blur(' + 0 +'px)'
@@ -28,7 +24,6 @@ X.addEventListener('click' , () => {
 })
 
 Menu.addEventListener('click' , () => {
-    Menu.style.opacity = 0
     Menu.style.transform = 'translateX(' + 100 + '%)'
     MainSec.style.filter = 'blur(' + 0 +'px)'
     MainIMG.style.filter = 'blur(' + 0 +'px)'
