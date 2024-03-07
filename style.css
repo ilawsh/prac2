@@ -84,15 +84,15 @@ header{
     display: flex;
     flex-direction: column;
     background-color: gray;
-    position: absolute;
+    position: fixed;
     top: 0%;
     right: 0;
-    width: 50%;
+    width: 0%;
     text-align: center;
     height: 100vh;
     z-index: 1;
     transition: all 0.5s;
-    transform: translateX(100%);
+    overflow: hidden;
 }
 
 
@@ -124,8 +124,8 @@ header{
 
 .x{
     position: absolute;
-    top: 3%;
-    right: 5%;
+    top: -4%;
+    right: 7%;
     display: none;
     z-index: 1;
     margin-bottom: 10px;
@@ -174,7 +174,7 @@ header{
     align-items: center;
     margin-top: -62px; 
     background-color: #1e2027;
-    height: 100vmin;
+    height: 100vh;
 }
 
 .Main-1 {
@@ -233,7 +233,6 @@ header{
     transform: translateX(30px);
     opacity: 0;
     animation: moveleft 1.7s linear forwards;
-    background-color: #1e2027;
 }
 
 @keyframes moveright{
