@@ -87,6 +87,7 @@ header{
     position: fixed;
     top: 0%;
     right: 0;
+    overflow: auto;
     width: 0%;
     text-align: center;
     height: 100vh;

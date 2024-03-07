@@ -6,7 +6,7 @@ let MainIMG = document.querySelector('.Main-2')
 
 
 MenuBTN.addEventListener('click' ,  () => {
-    Menu.style.width = 70 + '%'
+    Menu.style.width = 60 + '%'
     MainSec.style.filter = 'blur(' + 2 +'px)'
     MainIMG.style.filter = 'blur(' + 2 +'px)'
     X.style.display = 'block'
