@@ -89,9 +89,8 @@ header{
     position: absolute;
     top: 0%;
     right: 0;
-    transform: translateX(100%);
     overflow: auto;
-    width: 50%;
+    width: 0%;
     text-align: center;
     height: 100vh;
     z-index: 1;
