@@ -22,3 +22,15 @@ X.addEventListener('click' , () => {
     MenuBTN.style.display = 'block'
     MenuBTN.style.opacity = 1;
 })
+
+
+MainSec.addEventListener('click' , () => {
+    Menu.style.width = 0 
+    MainSec.style.filter = 'blur(' + 0 +'px)'
+    MainIMG.style.filter = 'blur(' + 0 +'px)'
+    X.style.display = 'none'
+    MenuBTN.style.display = 'block'
+    MenuBTN.style.opacity = 1;
+})
+
+
