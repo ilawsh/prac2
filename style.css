@@ -94,7 +94,7 @@ header{
     z-index: 1;
     transition: all 0.5s;
     overflow: hidden;
-    border-radius: 2%;
+    border-radius: 1%;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -112,6 +112,12 @@ header{
     margin-top: 50px;
     transition: all 0.5s;
 }
+
+.Navbar-5 div a:hover{
+    background-color: rgba(0, 0, 0, 0.727);
+}
+
+
 
 
 .Navbar-4{
